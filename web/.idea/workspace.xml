@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ec7b43f-4b24-47f0-8dd7-1933ef1a68dc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i7hAPj8khbPmYDVy64hzYhZHPD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ec7b43f-4b24-47f0-8dd7-1933ef1a68dc" name="Default Changelist" comment="" />
+      <created>1601264394783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601264394783</updated>
+      <workItem from="1601264395798" duration="113000" />
+      <workItem from="1601264516584" duration="462000" />
+      <workItem from="1601265004148" duration="8000" />
+      <workItem from="1601296628742" duration="4550000" />
+      <workItem from="1601453989749" duration="3732000" />
+      <workItem from="1601467126034" duration="1402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="777" y="282" width="678" height="534" key="#Vim_Emulation" timestamp="1601298738160">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="777" y="282" width="678" height="534" key="#Vim_Emulation/0.0.1920.1080@0.0.1920.1080" timestamp="1601298738160" />
+    <state x="663" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601467116357">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="663" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601467116357" />
+    <state x="953" y="396" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1601468165374">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="953" y="396" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601468165374" />
+    <state x="1084" y="335" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1601466943153">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1084" y="335" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601466943153" />
+    <state x="463" y="342" key="FileChooserDialogImpl" timestamp="1601468144358">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="463" y="342" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601468144357" />
+    <state x="608" y="168" width="998" height="714" key="SettingsEditor" timestamp="1601467331162">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="608" y="168" width="998" height="714" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601467331162" />
+    <state x="1301" y="464" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1601467043890">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1301" y="464" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601467043890" />
+    <state x="637" y="346" width="611" height="656" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1601467251741">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="637" y="346" width="611" height="656" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601467251741" />
+    <state x="1025" y="285" width="672" height="678" key="search.everywhere.popup" timestamp="1601468042191">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1025" y="285" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1601468042191" />
+  </component>
+</project>

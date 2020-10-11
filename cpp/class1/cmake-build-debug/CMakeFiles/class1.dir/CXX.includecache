@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CODE/cpp/class1/lottery.cpp
+p1list.h
+E:/CODE/cpp/class1/p1list.h
+time.h
+-
+
+E:/CODE/cpp/class1/p1list.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+

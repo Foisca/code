@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <!--主要用来做移动端开发-->
+    <!--    content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0 minimum-scale=1.0">-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--1.div:用来布局，没有具体含义。层-->
+<div>
+    abc
+    <div>def</div>
+</div>
+
+<!--2.hx:标题，从1级到6级，1级最大，6级最小，会自动加粗，有默认字号-->
+<h1>前段课内容</h1>
+<h2>Java开发</h2>
+<h6>大前端开发</h6>
+
+<!--3.p:段落。相当于一个回车。-->
+<p>对于PostgreSQL的新手来说，清理是多版本并发系统的一部分，它负责删除每当记录被更改或删除时生成的无效元组或行。
+    autovacuum功能可以清除死掉（已删除）的隐藏行，从而消除表膨胀，类似于Java的垃圾收集器。
+    有两个与vacuum相关的改进：索引的并行清理以及允许对仅追加的数据进行仅索引扫描。</p>
+<!--4.br:生成一个换行符-->
+<p>对于PostgreSQL的新手来说，清理是多版本并发系统的一部分，它负责删除每当记录被更改或删除时生成的无效元组或行。<br/>
+    autovacuum功能可以清除死掉（已删除）的隐藏行，从而消除表膨胀，类似于Java的垃圾收集器。<br/>
+    有两个与vacuum相关的改进：索引的并行清理以及允许对仅追加的数据进行仅索引扫描。<br/></p>
+
+<!--5.hr:生成一条水平线，主要起装饰作用-->
+<hr/>
+<hr width="80%" align="center" color="red" size="8px"/>
+
+<!--6.a:实现链接跳转-->
+<a href="https://www.github.com/Foisca" title="Goto Github of Foisca">Foisca</a>
+<a href="temp.html" title="New page" target="_blank">文件操作</a>
+<a href="temp.html" title="This page" target="_self">文件操作</a>
+    <!--<a href="temp.html" target="_parent">文件操作</a>-->
+    <!--<a href="temp.html" target="_top">文件操作</a>-->
+
+<!--7.img:加载外部图像。src:设定加载图像的路径。alt:当图片加载不成功的时候显示，否则不显示。-->
+<img src="https://i0.hdslb.com/bfs/archive/0b65aafecdf87bdce4b420d61e9286a00a4aaaf8.jpg@500w_250h.jpg" alt="图片"/>
+<img src="https://i0.hdslb.com/bfs/archive/0b65aafecdf87bdce4b420d61e9286a00a4aaaf8.jpg@500w_250h.jpg" alt=""/>
+
+<!--8.span:作用与div一样，都是用来布局的，不同的是div会单独在一行，二而span不会-->
+<div>div1</div>
+<div>div2</div>
+<span>span1</span>
+<span>span2</span>
+
+</body>
+</html>
