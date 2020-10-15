@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DSexperiment.dir/LinkQueue.cpp.obj"
+  "CMakeFiles/DSexperiment.dir/SqQueue.cpp.obj"
   "CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj"
   "CMakeFiles/DSexperiment.dir/linkedlist.cpp.obj"
-  "CMakeFiles/DSexperiment.dir/main.cpp.obj"
   "DSexperiment.exe"
   "DSexperiment.exe.manifest"
   "DSexperiment.pdb"

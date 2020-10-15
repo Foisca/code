@@ -1,6 +1,11 @@
-# m = {'a': 10, 'b': 20, 'c': 30}
-# print(m)
-# print(m['a'])
-
-str = input()
-print(str[0])
+t, x = input().split(' ')
+t = int(t)
+x = int(x)
+num = 0
+add = x
+year = 0
+while (num < t):
+    num += add
+    year += 1
+    add *= 3
+print(year)

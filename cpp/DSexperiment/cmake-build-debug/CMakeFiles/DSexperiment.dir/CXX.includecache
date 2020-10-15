@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/CODE/cpp/DSexperiment/hotelmanagement.cpp
+E:/CODE/cpp/DSexperiment/head.h
 stdio.h
 -
 stdlib.h
 -
 string.h
 -
+
+E:/CODE/cpp/DSexperiment/hotelmanagement.cpp
+head.h
+E:/CODE/cpp/DSexperiment/head.h
 

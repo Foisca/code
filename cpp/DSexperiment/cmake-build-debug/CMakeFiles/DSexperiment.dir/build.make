@@ -76,22 +76,9 @@ include CMakeFiles/DSexperiment.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DSexperiment.dir/flags.make
 
-CMakeFiles/DSexperiment.dir/main.cpp.obj: CMakeFiles/DSexperiment.dir/flags.make
-CMakeFiles/DSexperiment.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CODE\cpp\DSexperiment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSexperiment.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSexperiment.dir\main.cpp.obj -c E:\CODE\cpp\DSexperiment\main.cpp
-
-CMakeFiles/DSexperiment.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSexperiment.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CODE\cpp\DSexperiment\main.cpp > CMakeFiles\DSexperiment.dir\main.cpp.i
-
-CMakeFiles/DSexperiment.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSexperiment.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CODE\cpp\DSexperiment\main.cpp -o CMakeFiles\DSexperiment.dir\main.cpp.s
-
 CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj: CMakeFiles/DSexperiment.dir/flags.make
 CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj: ../hotelmanagement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CODE\cpp\DSexperiment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CODE\cpp\DSexperiment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj"
 	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSexperiment.dir\hotelmanagement.cpp.obj -c E:\CODE\cpp\DSexperiment\hotelmanagement.cpp
 
 CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.i: cmake_force
@@ -104,7 +91,7 @@ CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.s: cmake_force
 
 CMakeFiles/DSexperiment.dir/linkedlist.cpp.obj: CMakeFiles/DSexperiment.dir/flags.make
 CMakeFiles/DSexperiment.dir/linkedlist.cpp.obj: ../linkedlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CODE\cpp\DSexperiment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DSexperiment.dir/linkedlist.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CODE\cpp\DSexperiment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSexperiment.dir/linkedlist.cpp.obj"
 	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSexperiment.dir\linkedlist.cpp.obj -c E:\CODE\cpp\DSexperiment\linkedlist.cpp
 
 CMakeFiles/DSexperiment.dir/linkedlist.cpp.i: cmake_force
@@ -115,23 +102,51 @@ CMakeFiles/DSexperiment.dir/linkedlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSexperiment.dir/linkedlist.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CODE\cpp\DSexperiment\linkedlist.cpp -o CMakeFiles\DSexperiment.dir\linkedlist.cpp.s
 
+CMakeFiles/DSexperiment.dir/SqQueue.cpp.obj: CMakeFiles/DSexperiment.dir/flags.make
+CMakeFiles/DSexperiment.dir/SqQueue.cpp.obj: ../SqQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CODE\cpp\DSexperiment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DSexperiment.dir/SqQueue.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSexperiment.dir\SqQueue.cpp.obj -c E:\CODE\cpp\DSexperiment\SqQueue.cpp
+
+CMakeFiles/DSexperiment.dir/SqQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSexperiment.dir/SqQueue.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CODE\cpp\DSexperiment\SqQueue.cpp > CMakeFiles\DSexperiment.dir\SqQueue.cpp.i
+
+CMakeFiles/DSexperiment.dir/SqQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSexperiment.dir/SqQueue.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CODE\cpp\DSexperiment\SqQueue.cpp -o CMakeFiles\DSexperiment.dir\SqQueue.cpp.s
+
+CMakeFiles/DSexperiment.dir/LinkQueue.cpp.obj: CMakeFiles/DSexperiment.dir/flags.make
+CMakeFiles/DSexperiment.dir/LinkQueue.cpp.obj: ../LinkQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CODE\cpp\DSexperiment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DSexperiment.dir/LinkQueue.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSexperiment.dir\LinkQueue.cpp.obj -c E:\CODE\cpp\DSexperiment\LinkQueue.cpp
+
+CMakeFiles/DSexperiment.dir/LinkQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSexperiment.dir/LinkQueue.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CODE\cpp\DSexperiment\LinkQueue.cpp > CMakeFiles\DSexperiment.dir\LinkQueue.cpp.i
+
+CMakeFiles/DSexperiment.dir/LinkQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSexperiment.dir/LinkQueue.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CODE\cpp\DSexperiment\LinkQueue.cpp -o CMakeFiles\DSexperiment.dir\LinkQueue.cpp.s
+
 # Object files for target DSexperiment
 DSexperiment_OBJECTS = \
-"CMakeFiles/DSexperiment.dir/main.cpp.obj" \
 "CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj" \
-"CMakeFiles/DSexperiment.dir/linkedlist.cpp.obj"
+"CMakeFiles/DSexperiment.dir/linkedlist.cpp.obj" \
+"CMakeFiles/DSexperiment.dir/SqQueue.cpp.obj" \
+"CMakeFiles/DSexperiment.dir/LinkQueue.cpp.obj"
 
 # External object files for target DSexperiment
 DSexperiment_EXTERNAL_OBJECTS =
 
-DSexperiment.exe: CMakeFiles/DSexperiment.dir/main.cpp.obj
 DSexperiment.exe: CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj
 DSexperiment.exe: CMakeFiles/DSexperiment.dir/linkedlist.cpp.obj
+DSexperiment.exe: CMakeFiles/DSexperiment.dir/SqQueue.cpp.obj
+DSexperiment.exe: CMakeFiles/DSexperiment.dir/LinkQueue.cpp.obj
 DSexperiment.exe: CMakeFiles/DSexperiment.dir/build.make
 DSexperiment.exe: CMakeFiles/DSexperiment.dir/linklibs.rsp
 DSexperiment.exe: CMakeFiles/DSexperiment.dir/objects1.rsp
 DSexperiment.exe: CMakeFiles/DSexperiment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\CODE\cpp\DSexperiment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DSexperiment.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\CODE\cpp\DSexperiment\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DSexperiment.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DSexperiment.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

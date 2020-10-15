@@ -1,11 +1,7 @@
 //
 // Created by Foisca on 10/7/2020.
 //
-
-
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include "head.h"
 
 //定义客房链表节点
 typedef struct HNode {
@@ -21,11 +17,11 @@ typedef struct HNode {
 (1)实现创建客房信息链表函数void Build(HLink &H).输入(客房名称、标准价格、床位数),
 同时修改入住价格、入住状态为默认值.即入住价格=标准价格*80%.入住状态为"空闲"
 提示:用strcpy()字符串拷贝函数。为了提高程序调试效率,
-要求:用文件操作来输入客房信息(客房名称、标准价格、床位数);
+要求:用文件操作来输入客房信息(客房名称、标准价格、床位数);"E:\\data.txt"
  */
-void Build(HLink &head) {
+void Build(HLink &head, char *filepath) {
     FILE *fp;
-    if (NULL == (fp = fopen("E:\\data.txt", "r"))) {
+    if (NULL == (fp = fopen(filepath, "r"))) {
         printf("error");
         exit(0);
     }
@@ -46,7 +42,6 @@ void Build(HLink &head) {
     }
 }
 
-
 /*
 (2)实现输出客房信息函数void Exp(HLink H).输出所有客房的客房名称、标准价格、入住价格、床位数、入住状态;
  */
@@ -58,7 +53,7 @@ void Exp(HLink &head) {
         printf("%4s   %6.1f  %6.1f%5d  %8s\n", p->roomN, p->Price, p->PriceL, p->Beds, p->Status);
         p = p->next;
     }
-
+    printf("\n");
 }
 
 /*
@@ -138,21 +133,89 @@ void MoveK1(HLink &head, int k) {
 }
 
 /*
-(8)函数void ReverseN2(HLink &H).将单链表的正中间位置结点之后的全部结点倒置的功能.注意:严禁采用先计算链表长度n再除以2(即n/2)的方法;
+(8)函数void ReverseN2(HLink &H).将单链表的正中间位置结点之后的全部结点倒置的功能.
+ 注意:严禁采用先计算链表长度n再除以2(即n/2)的方法;
 */
 void ReverseN2(HLink &head) {
-    HLink fast = head, slow = head;
+    HLink fast = head, mid = head;
     while (fast) {
         fast = fast->next->next;
-        slow = slow->next;
+        mid = mid->next;
+    }
+    HLink rear = mid->next;
+    HLink p = rear->next;
+    while (p) {
+        rear->next = p->next;
+        p->next = mid->next;
+        mid->next = p;
+        p = rear->next;
     }
 }
 
 /*
 (9)函数void SortPriceL(HLink &H).按照客房(入住价格.客房名称)升序排序;
  */
-void SortPriceL(HLink &head) {
+//递增排序
+//冒泡排序
+void InSortPriceL(HLink &head) {
+    HLink rear = head;
+    HLink pp, p, q;
+    while (rear->next) rear = rear->next;
+    while (rear != head->next) {
+        pp = head;
+        p = pp->next;
+        q = p->next;
+//        printf("do\n");
+        while (pp->next->next != rear) {
+            if (p->PriceL > q->PriceL) {
+//                printf("%d <-> %d\n", p->Beds, q->Beds);
+                p->next = q->next;
+                q->next = pp->next;
+                pp->next = q;
+            }
+            pp = pp->next;
+            p = pp->next;
+            q = p->next;
+        }
+        if (p->PriceL > q->PriceL) {
+//            printf("%d <-> %d\n", p->Beds, q->Beds);
+            p->next = q->next;
+            q->next = pp->next;
+            pp->next = q;
+        } else {
+            rear = pp->next;
+        }
+    }
+}
 
+//递减排序
+//冒泡排序
+void DeSortPriceL(HLink &head) {
+    HLink rear = head;
+    HLink pp, p, q;
+    while (rear->next) rear = rear->next;
+    while (rear != head->next) {
+        pp = head;
+        p = pp->next;
+        q = p->next;
+        while (pp->next->next != rear) {
+            if (p->PriceL < q->PriceL) {
+                p->next = q->next;
+                q->next = pp->next;
+                pp->next = q;
+            }
+            pp = pp->next;
+            p = pp->next;
+            q = p->next;
+        }
+        if (p->PriceL < q->PriceL) {
+            p->next = q->next;
+            q->next = pp->next;
+            pp->next = q;
+        } else {
+            rear = pp->next;
+        }
+    }
 }
 
 /*
@@ -162,8 +225,22 @@ void SortPriceL(HLink &head) {
  要求[超过beds的结点]和[不超过beds的结点]这两段链表中的结点保持原来的前后相对顺序;
  */
 void upBed(HLink &head, int beds) {
-
-
+    HLink fast, slow, now;
+    slow = head;
+    fast = slow->next;
+    now = new HNode;
+    printf("please enter the name and PriceL of the room:\n");
+    scanf("%s %f", now->roomN, &now->Price);
+    now->Beds = beds;
+    now->PriceL = now->Price * 0.8;
+    strcpy(now->Status, "free");
+    now->next = NULL;
+    while (fast->Beds < beds) {
+        fast = fast->next;
+        slow = slow->next;
+    }
+    now->next = fast;
+    slow->next = now;
 }
 
 /*
@@ -171,28 +248,85 @@ void upBed(HLink &head, int beds) {
  将两个按入住价格非递减排序的客房记录单合并为一个按入住价格非递增排序的客房记录单;
  要求算法的时间复杂度不超过两个链表的长度之和O(m+n);
  */
-void Merge(HLink &head1, HLink Head2) {
-
+void Merge(HLink &head1, HLink head2) {
+    HLink p1, p2, pp1, small;
+    small = head2;
+    bool p1first = true;
+    if (head1->next->Beds >= head2->next->Beds) {
+        HLink temp;
+        while (head1->next->Beds >= small->next->Beds) small = small->next;
+        temp = head2->next;
+        head2->next = small->next;
+        small->next = head1->next;
+        head1->next = temp;
+    }
+    pp1 = head1, p1 = pp1->next;
+    p2 = head2->next;
+    while (p1 && p2) {
+        if (p1->Beds > p2->Beds) {
+            pp1->next = p1->next;
+            p1->next = head1->next;
+            head1->next = p1;
+            if (p1first) {
+                pp1 = pp1->next;
+                p1first = false;
+            }
+            p1 = pp1->next;
+        } else {
+            head2->next = p2->next;
+            p2->next = head1->next;
+            head1->next = p2;
+            p2 = head2->next;
+        }
+    }
+    if (!p1) {
+        while (p2) {
+            head2->next = p2->next;
+            p2->next = head1->next;
+            head1->next = p2;
+            p2 = head2->next;
+        }
+    } else {
+        while (p1) {
+            pp1->next = p1->next;
+            p1->next = head1->next;
+            head1->next = p1;
+            pp1 = pp1->next;
+            p1 = pp1->next;
+        }
+    }
 }
 
 /*
 (12)主函数main()调用以上函数.(3)若返回值>=1则输出该客房在链表中的位置序号.否则输出该客房不存在;
  输出(4)~(10)处理后的链表内容.其中(6)还要输出入住价格最高的客房信息。
  */
+HLink reverse(HLink &head) {
+    if (head == NULL || head->next == NULL)return head;
+    HLink re = reverse(head->next);
+    head->next->next = head;
+    head->next = NULL;
+    return re;
+}
 
 int main() {
-    HLink head;
-    Build(head);
+    HLink head, test;
+    Build(head, "E:\\data.txt");
+    Build(test, "E:\\data1.txt");
 //    Exp(head);
-//    printf("%d", Find(head, "zxc"));
+    Exp(test);
 //    updateH(head, 2, "checked");
 //    Exp(head);
 //    printf("\n");
 //    Add(head);
-    Exp(head);
+//    Exp(head);
 //    printf("%d", FirstH(head)->Beds);
 //    MoveK1(head, 2);
-    ReverseN2(head);
+//    ReverseN2(head);
+    InSortPriceL(head);
+    Exp(head);
+    Merge(head, test);
+//    upBed(head, 5);
     Exp(head);
 }
 

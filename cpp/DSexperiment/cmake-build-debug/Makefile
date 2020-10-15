@@ -142,6 +142,60 @@ DSexperiment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/build
 .PHONY : DSexperiment/fast
 
+LinkQueue.obj: LinkQueue.cpp.obj
+
+.PHONY : LinkQueue.obj
+
+# target to build an object file
+LinkQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/LinkQueue.cpp.obj
+.PHONY : LinkQueue.cpp.obj
+
+LinkQueue.i: LinkQueue.cpp.i
+
+.PHONY : LinkQueue.i
+
+# target to preprocess a source file
+LinkQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/LinkQueue.cpp.i
+.PHONY : LinkQueue.cpp.i
+
+LinkQueue.s: LinkQueue.cpp.s
+
+.PHONY : LinkQueue.s
+
+# target to generate assembly for a file
+LinkQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/LinkQueue.cpp.s
+.PHONY : LinkQueue.cpp.s
+
+SqQueue.obj: SqQueue.cpp.obj
+
+.PHONY : SqQueue.obj
+
+# target to build an object file
+SqQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/SqQueue.cpp.obj
+.PHONY : SqQueue.cpp.obj
+
+SqQueue.i: SqQueue.cpp.i
+
+.PHONY : SqQueue.i
+
+# target to preprocess a source file
+SqQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/SqQueue.cpp.i
+.PHONY : SqQueue.cpp.i
+
+SqQueue.s: SqQueue.cpp.s
+
+.PHONY : SqQueue.s
+
+# target to generate assembly for a file
+SqQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/SqQueue.cpp.s
+.PHONY : SqQueue.cpp.s
+
 hotelmanagement.obj: hotelmanagement.cpp.obj
 
 .PHONY : hotelmanagement.obj
@@ -196,33 +250,6 @@ linkedlist.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/linkedlist.cpp.s
 .PHONY : linkedlist.cpp.s
 
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSexperiment.dir\build.make CMakeFiles/DSexperiment.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -232,15 +259,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DSexperiment
+	@echo ... LinkQueue.obj
+	@echo ... LinkQueue.i
+	@echo ... LinkQueue.s
+	@echo ... SqQueue.obj
+	@echo ... SqQueue.i
+	@echo ... SqQueue.s
 	@echo ... hotelmanagement.obj
 	@echo ... hotelmanagement.i
 	@echo ... hotelmanagement.s
 	@echo ... linkedlist.obj
 	@echo ... linkedlist.i
 	@echo ... linkedlist.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

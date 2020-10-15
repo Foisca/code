@@ -3,4 +3,4 @@ project(DSexperiment)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DSexperiment main.cpp hotelmanagement.cpp linkedlist.cpp)
+add_executable(DSexperiment hotelmanagement.cpp linkedlist.cpp SqQueue.cpp LinkQueue.cpp head.h)

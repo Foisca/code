@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/CODE/cpp/DSexperiment/LinkQueue.cpp" "E:/CODE/cpp/DSexperiment/cmake-build-debug/CMakeFiles/DSexperiment.dir/LinkQueue.cpp.obj"
+  "E:/CODE/cpp/DSexperiment/SqQueue.cpp" "E:/CODE/cpp/DSexperiment/cmake-build-debug/CMakeFiles/DSexperiment.dir/SqQueue.cpp.obj"
   "E:/CODE/cpp/DSexperiment/hotelmanagement.cpp" "E:/CODE/cpp/DSexperiment/cmake-build-debug/CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj"
   "E:/CODE/cpp/DSexperiment/linkedlist.cpp" "E:/CODE/cpp/DSexperiment/cmake-build-debug/CMakeFiles/DSexperiment.dir/linkedlist.cpp.obj"
-  "E:/CODE/cpp/DSexperiment/main.cpp" "E:/CODE/cpp/DSexperiment/cmake-build-debug/CMakeFiles/DSexperiment.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

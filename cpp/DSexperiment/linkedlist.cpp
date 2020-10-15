@@ -2,9 +2,7 @@
 // Created by Yjy09 on 10/7/2020.
 //
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include "head.h"
 
 typedef struct node {
     int val;

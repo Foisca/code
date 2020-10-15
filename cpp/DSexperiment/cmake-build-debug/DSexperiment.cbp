@@ -80,13 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/CODE/cpp/DSexperiment/LinkQueue.cpp">
+			<Option target="DSexperiment"/>
+		</Unit>
+		<Unit filename="E:/CODE/cpp/DSexperiment/SqQueue.cpp">
+			<Option target="DSexperiment"/>
+		</Unit>
+		<Unit filename="E:/CODE/cpp/DSexperiment/head.h">
+			<Option target="DSexperiment"/>
+		</Unit>
 		<Unit filename="E:/CODE/cpp/DSexperiment/hotelmanagement.cpp">
 			<Option target="DSexperiment"/>
 		</Unit>
 		<Unit filename="E:/CODE/cpp/DSexperiment/linkedlist.cpp">
-			<Option target="DSexperiment"/>
-		</Unit>
-		<Unit filename="E:/CODE/cpp/DSexperiment/main.cpp">
 			<Option target="DSexperiment"/>
 		</Unit>
 		<Unit filename="E:/CODE/cpp/DSexperiment/CMakeLists.txt">
