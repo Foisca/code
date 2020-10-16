@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec7b43f-4b24-47f0-8dd7-1933ef1a68dc" name="Default Changelist" comment="" />
+    <list default="true" id="0ec7b43f-4b24-47f0-8dd7-1933ef1a68dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/first/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/DSexperiment/cmake-build-debug/CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/DSexperiment/cmake-build-debug/CMakeFiles/DSexperiment.dir/hotelmanagement.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/DSexperiment/cmake-build-debug/CMakeFiles/DSexperiment.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/DSexperiment/cmake-build-debug/CMakeFiles/DSexperiment.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/DSexperiment/cmake-build-debug/DSexperiment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/DSexperiment/cmake-build-debug/DSexperiment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/DSexperiment/hotelmanagement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/DSexperiment/hotelmanagement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +39,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1i7hAPj8khbPmYDVy64hzYhZHPD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +52,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,11 +69,23 @@
       <workItem from="1601296628742" duration="4550000" />
       <workItem from="1601453989749" duration="3732000" />
       <workItem from="1601467126034" duration="1402000" />
+      <workItem from="1602806430697" duration="1502000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="777" y="282" width="678" height="534" key="#Vim_Emulation" timestamp="1601298738160">
@@ -67,10 +108,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="463" y="342" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601468144357" />
-    <state x="608" y="168" width="998" height="714" key="SettingsEditor" timestamp="1601467331162">
+    <state x="608" y="168" width="998" height="714" key="SettingsEditor" timestamp="1602806476722">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="608" y="168" width="998" height="714" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601467331162" />
+    <state x="608" y="168" width="998" height="714" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602806476722" />
     <state x="1301" y="464" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1601467043890">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
